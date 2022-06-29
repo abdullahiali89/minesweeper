@@ -1,0 +1,42 @@
+.beginner {
+  background-color: #ffc107;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.intermediate {
+  background-color: #ffc107;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.expert {
+  background-color: #ffc107;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.currentLevel {
+  color: #ffc107;
+
+  background-color: #fff;
+}
