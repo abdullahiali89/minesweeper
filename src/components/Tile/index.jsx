@@ -31,18 +31,7 @@ function Tile({ tile, id, handleClick, handleRightClick }) {
   return (
     <div
       contextMenu="none"
-      onKeyUp={(e) => {
-        console.log(e.key);
-        if (e.key === "enter") {
-          console.log("space");
-        }
-      }}
-      onKeyDown={(e) => {
-        if (e.key === " " || e.code === "Space") {
-          handleRightClick(e);
-        }
-        console.log(e.key);
-      }}
+   
       onContextMenu={(e) => {
         handleRightClick(e);
       }}

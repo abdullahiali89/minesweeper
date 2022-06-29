@@ -1,11 +1,9 @@
 import { showEmptyAdjacentTile } from "./showEmtyAdjacentTile";
 export function moreTilesToClear(Board, emptyTilesArr) {
   let newBoard = Board;
-  // console.log(`emptyTilesArr:`, emptyTilesArr);
 
   let newEmptyTilesArr = emptyTilesArr.reduce(
     function (newEmptyTilesArr, emptyTile) {
-      // console.log(`newEmptyTilesArr:`, newEmptyTilesArr);
       let result = showEmptyAdjacentTile(emptyTile, Board);
       if (result.newBoard) {
         newBoard = result.newBoard;
