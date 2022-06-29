@@ -26,11 +26,9 @@ classic mine sweeper game with three levels.<br>
 
 # Tech Stack
 
-## -React<br>
-
-## -CSS<br>
-
-## -jest<br>
+-React<br>
+-CSS<br>
+-Jest<br>
 
 # How to run project
 
