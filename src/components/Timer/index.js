@@ -9,7 +9,7 @@ function Timer({ gameOver, level }) {
     if (!gameOver) {
       setReSetTimer(true);
     }
-  }, [level]);
+  }, [level, gameOver]);
 
   useEffect(() => {
     let interval = 0;
