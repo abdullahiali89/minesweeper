@@ -36,3 +36,7 @@ classic mine sweeper game with three levels.<br>
 2- run "npm i" to install all dependencies <br>
 3- run "npm start" to launch project at localhost:3000<br>
 4- run "npm run test" to run all unit test suites with jest <br>
+
+# Hosted on Netlify
+
+https://abdullahisminesweeper.netlify.app/
